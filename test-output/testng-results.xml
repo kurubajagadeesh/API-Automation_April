@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T15:18:23 IST" name="Default suite" finished-at="2025-04-15T15:18:31 IST" duration-ms="7394">
+    <groups>
+    </groups>
+    <test started-at="2025-04-15T15:18:23 IST" name="Default test" finished-at="2025-04-15T15:18:31 IST" duration-ms="7394">
+      <class name="userManagement.Requese">
+        <test-method signature="getListOfResources()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:23 IST" name="getListOfResources" finished-at="2025-04-15T15:18:29 IST" duration-ms="5965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfResources -->
+        <test-method signature="getListUsers()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:29 IST" name="getListUsers" finished-at="2025-04-15T15:18:30 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsers -->
+        <test-method signature="getSingleUser()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:30 IST" name="getSingleUser" finished-at="2025-04-15T15:18:30 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method signature="validateListContainsItems()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:30 IST" name="validateListContainsItems" finished-at="2025-04-15T15:18:31 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateListContainsItems -->
+      </class> <!-- userManagement.Requese -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
