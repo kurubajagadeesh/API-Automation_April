@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="userManagement.Requese">
+      <class name="userManagement.Paramaters">
         <methods>
-          <include name="getListOfResources"/>
+          <include name="testGetUsersWithQueryParameters"/>
         </methods>
-      </class> <!-- userManagement.Requese -->
+      </class> <!-- userManagement.Paramaters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

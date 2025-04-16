@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-15T15:18:23 IST" name="Default suite" finished-at="2025-04-15T15:18:31 IST" duration-ms="7394">
+  <suite started-at="2025-04-16T17:18:59 IST" name="Default suite" finished-at="2025-04-16T17:19:06 IST" duration-ms="6759">
     <groups>
+      <group name="Sanity">
+        <method signature="Paramaters.validateStatusCodeGetUser()[pri:0, instance:userManagement.Paramaters@3ee37e5a]" name="validateStatusCodeGetUser" class="userManagement.Paramaters"/>
+      </group> <!-- Sanity -->
+      <group name="regression">
+        <method signature="Paramaters.testGetUsersWithQueryParameters()[pri:0, instance:userManagement.Paramaters@3ee37e5a]" name="testGetUsersWithQueryParameters" class="userManagement.Paramaters"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2025-04-15T15:18:23 IST" name="Default test" finished-at="2025-04-15T15:18:31 IST" duration-ms="7394">
-      <class name="userManagement.Requese">
-        <test-method signature="getListOfResources()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:23 IST" name="getListOfResources" finished-at="2025-04-15T15:18:29 IST" duration-ms="5965" status="PASS">
+    <test started-at="2025-04-16T17:18:59 IST" name="Default test" finished-at="2025-04-16T17:19:06 IST" duration-ms="6759">
+      <class name="userManagement.Paramaters">
+        <test-method signature="testGetUsersWithMultipleQueryParams()[pri:0, instance:userManagement.Paramaters@3ee37e5a]" started-at="2025-04-16T17:18:59 IST" name="testGetUsersWithMultipleQueryParams" finished-at="2025-04-16T17:19:04 IST" duration-ms="4516" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getListOfResources -->
-        <test-method signature="getListUsers()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:29 IST" name="getListUsers" finished-at="2025-04-15T15:18:30 IST" duration-ms="542" status="PASS">
+        </test-method> <!-- testGetUsersWithMultipleQueryParams -->
+        <test-method signature="testGetUsersWithQueryParameters()[pri:0, instance:userManagement.Paramaters@3ee37e5a]" started-at="2025-04-16T17:19:04 IST" name="testGetUsersWithQueryParameters" finished-at="2025-04-16T17:19:06 IST" duration-ms="1916" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getListUsers -->
-        <test-method signature="getSingleUser()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:30 IST" name="getSingleUser" finished-at="2025-04-15T15:18:30 IST" duration-ms="397" status="PASS">
+        </test-method> <!-- testGetUsersWithQueryParameters -->
+        <test-method signature="validateStatusCodeGetUser()[pri:0, instance:userManagement.Paramaters@3ee37e5a]" started-at="2025-04-16T17:19:06 IST" name="validateStatusCodeGetUser" finished-at="2025-04-16T17:19:06 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSingleUser -->
-        <test-method signature="validateListContainsItems()[pri:0, instance:userManagement.Requese@2ea41516]" started-at="2025-04-15T15:18:30 IST" name="validateListContainsItems" finished-at="2025-04-15T15:18:31 IST" duration-ms="360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateListContainsItems -->
-      </class> <!-- userManagement.Requese -->
+        </test-method> <!-- validateStatusCodeGetUser -->
+      </class> <!-- userManagement.Paramaters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
